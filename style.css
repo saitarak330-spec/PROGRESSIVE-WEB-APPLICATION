@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: #f5f5f5;
+}
+
+header {
+  background: #317EFB;
+  color: white;
+  padding: 1rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+button {
+  background: #317EFB;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background: #255db2;
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 1rem;
+    font-size: 14px;
+  }
+}
